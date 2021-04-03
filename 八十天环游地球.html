@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="04a3a325f0d34c00b82ad763bb3dc811" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_04a3a325f0d34c00b82ad763bb3dc811 = echarts.init(
+            document.getElementById('04a3a325f0d34c00b82ad763bb3dc811'), 'white', {renderer: 'canvas'});
+        var option_04a3a325f0d34c00b82ad763bb3dc811 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "orange",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u4f26\u6566",
+                    "value": [
+                        0,
+                        51,
+                        55
+                    ]
+                },
+                {
+                    "name": "\u82cf\u4f0a\u58eb",
+                    "value": [
+                        32.33,
+                        29.58,
+                        66
+                    ]
+                },
+                {
+                    "name": "\u5b5f\u4e70",
+                    "value": [
+                        72.52,
+                        19.04,
+                        77
+                    ]
+                },
+                {
+                    "name": "\u52a0\u5c14\u5404\u7b54",
+                    "value": [
+                        88.2,
+                        22.33,
+                        88
+                    ]
+                },
+                {
+                    "name": "\u9999\u6e2f",
+                    "value": [
+                        114.173355,
+                        22.320048,
+                        88
+                    ]
+                },
+                {
+                    "name": "\u6a2a\u6ee8",
+                    "value": [
+                        139.39,
+                        35.57,
+                        88
+                    ]
+                },
+                {
+                    "name": "\u65e7\u91d1\u5c71",
+                    "value": [
+                        -122.25,
+                        37.48,
+                        88
+                    ]
+                },
+                {
+                    "name": "\u7ebd\u7ea6",
+                    "value": [
+                        -74,
+                        40.42,
+                        88
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u8def\u7ebf",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u4f26\u6566->\u82cf\u4f0a\u58eb",
+                    "coords": [
+                        [
+                            0,
+                            51
+                        ],
+                        [
+                            32.33,
+                            29.58
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u82cf\u4f0a\u58eb->\u5b5f\u4e70",
+                    "coords": [
+                        [
+                            32.33,
+                            29.58
+                        ],
+                        [
+                            72.52,
+                            19.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5b5f\u4e70->\u9999\u6e2f",
+                    "coords": [
+                        [
+                            72.52,
+                            19.04
+                        ],
+                        [
+                            114.173355,
+                            22.320048
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u9999\u6e2f->\u6a2a\u6ee8",
+                    "coords": [
+                        [
+                            114.173355,
+                            22.320048
+                        ],
+                        [
+                            139.39,
+                            35.57
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u6a2a\u6ee8->\u65e7\u91d1\u5c71",
+                    "coords": [
+                        [
+                            139.39,
+                            35.57
+                        ],
+                        [
+                            -122.25,
+                            37.48
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u65e7\u91d1\u5c71->\u7ebd\u7ea6",
+                    "coords": [
+                        [
+                            -122.25,
+                            37.48
+                        ],
+                        [
+                            -74,
+                            40.42
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u7ebd\u7ea6->\u4f26\u6566",
+                    "coords": [
+                        [
+                            -74,
+                            40.42
+                        ],
+                        [
+                            0,
+                            51
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.1,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u8def\u7ebf"
+            ],
+            "selected": {
+                "": true,
+                "\u8def\u7ebf": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u516b\u5341\u5929\u73af\u6e38\u5730\u7403\u8def\u7ebf\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_04a3a325f0d34c00b82ad763bb3dc811.setOption(option_04a3a325f0d34c00b82ad763bb3dc811);
+    </script>
+</body>
+</html>
